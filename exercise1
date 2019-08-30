@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta chartset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pennie</title>
+    </head>
+    <header>
+  <b>Interactive Web Design 2019</b>
+        </header>
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li> 
+        
+        <li>Pennie</li>
+    </ul>
+    </nav>
+<body>
+
+    <main>
+           <article>
+        <h1>Pennie is Punk</h1>
+         <img src="photos/trashy" alt="Pennie holding a flame.">
+        <aside>
+               <p>Pennie is Punk is a photo magazine about wearing denim in a punk way throughout all hours and during partaking in various activitie throughout the day. Pennie is a model an artist in New York City. All photos were taken in Union Square, Manhattan.
+            </p>
+               </aside>
+        </article>
+    
+    </main>
+</body>
+</html>
