@@ -1,46 +1,38 @@
-Html {
-Background-color: #923A75;
+
+html {
+background-color: #923A75;
 Color: #FF66CC;
 Font-size: 30px;
-Font-family: ‘Raleway’, sans-serif;
+Font-family: Helvetica, sans-serif;
 }
-Header, footer {
-Background-color: 
-Color: rgba(224, 0, 131, 0.5)
+
+Header {
+Background-color: #B64992;
 Padding: 15px; 
 Font-weight: bold; 
-}
-Header {
 Font-size: 2rem;
 Text-align: center;
 }
-Header img {
-Font-style: italic;
-}
+
 h1 {
     font-style: normal;
 }
+
 Nav {
-Background-color: #fff
+Background-color: #923A75;
 Padding: 50px;
 Font-size: 1rem;
 Text-align: center; 
 }
+
 Nav ul {
 Margin: 0;
 Padding: 0;
 List-style-type: none;
 }
+
 Nav li {
-Background-color: 
 Display: block; 
 Margin-left: 115px;
 Margin-right: 115px;
 }
-Nav a {
-Color: #000;
-}
-Nav a:hover {
-Color: 
-}
-

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "lettergothic";
+    src: url(fonts/LetterGothicStdBold.woff") format("woff");
+}
+
+body, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+}
+h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 17.8vw;
+    letter-spacing: -1vw;
+}
