@@ -1,0 +1,38 @@
+
+html {
+background-color: #923A75;
+Color: #FF66CC;
+Font-size: 30px;
+Font-family: Helvetica, sans-serif;
+}
+
+Header {
+Background-color: #B64992;
+Padding: 15px; 
+Font-weight: bold; 
+Font-size: 2rem;
+Text-align: center;
+}
+
+h1 {
+    font-style: normal;
+}
+
+Nav {
+Background-color: #923A75;
+Padding: 50px;
+Font-size: 1rem;
+Text-align: center; 
+}
+
+Nav ul {
+Margin: 0;
+Padding: 0;
+List-style-type: none;
+}
+
+Nav li {
+Display: block; 
+Margin-left: 115px;
+Margin-right: 115px;
+}
