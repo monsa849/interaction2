@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#circle, .circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    transition: background-color .5s ease;
+}
+
+.two {
+    margin-top: -50px;
+    background-color: darkgoldenrod;
+    mix-blend-mode: exclusion;
+    animation-name: animation-one;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#cirlce:hover {
+    background-color: cadetblue;
+    border-radius: 0px;   
+}
+
+@keyframes animation-one {
+    0%  { background-color: darkgoldenrod;}
+    50%  { background-color: green;}
+    100% { background-color: darkgoldenrod;}
+    
+}
+
+li {
+    margin: 20px 20px 10px;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: .5 ease; 
+}
+#diamond {
+    width: 100px; 
+    height: 100px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: magenta;
+    transform: rotate(45deg);
+    transition: .5s ease;
+}
+
