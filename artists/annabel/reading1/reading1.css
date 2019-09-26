@@ -1,0 +1,34 @@
+html {
+    background-color: skyblue;
+}
+
+header {
+font-family: Helvetica;
+font-style: sans-serif; 
+color: red;
+font-size: 20px;
+}
+
+body {
+margin-right: 25%;
+margin-left: 25%;
+font-family: Helvetica;
+font-style: normal;
+color: orange;
+font-size: 18px;
+}
+
+.responseOne {
+color: darkgoldenrod;
+}
+.responseTwo {
+color: yellow; 
+}
+
+.responseThree {
+color: green; 
+}
+
+.responseFour {
+color: blue;
+}
