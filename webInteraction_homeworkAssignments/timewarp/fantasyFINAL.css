@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "optima";
+    src: url(fonts/OptimaLtStd.woff) format("woff");
+}
+
+@keyframes animation-one {
+    0% {color: #e7ff99;}
+    25% {color: #d5ff4d;}
+    50% {color: #ff3399;}
+    75% {color: #e60073;}
+}
+
+@keyframes coolness-one {
+    0% {background-color: #099FFF;}
+    25% {background-color: #6E0DD0;}
+    50% {background-color: #923978;}
+    100% {background-color: #79B5B5;}
+}
+
+@keyframes so-cool {
+    0% {color: #C4F600;}
+    25% {color: greenyellow;}
+    35% {color: teal;}
+    40% {color: #217A64;}
+    100% {color: firebrick;}
+}
+
+@keyframes animation-three {
+    0% {fill: #333300;}
+    25% {fill: #808000;}
+    50% {fill: #990099}
+    75% {fill: #ffe6ff;}
+    100% {fill: #cc2900;}
+}
+
+@keyframes animation-two {
+     0% {color: #3366ff;}
+    25% {color: #1a53ff;}
+    50% {color: #ff8c1a;}
+    75% {color: #b35900;}
+    100% {color: #ff3374}
+}
+
+html {
+    animation-name: coolness-one;
+    animation-duration: 60s;
+}
+
+body {
+position: absolute;
+top: 35%;
+left: 50%;
+bottom: .2%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+animation-name: coolness-one;
+}
+
+.reality {
+    text-align: center;
+    animation-name: animation-three;
+}
+
+header, h1 {
+    font-family: "optima";
+    font-size: 100px;
+    text-align: center;
+    margin-right: -50%;
+    margin-left: -50%;
+    color: orange;
+    text-shadow: 20px 5px blue;
+}
+
+.big {
+    display: inline;
+}
+
+#belly {
+   text-align: center;
+}
+
+#face, #fruit {
+    fill: #990099;
+    stroke-width: 500;
+    stroke-miterlimit: 10;
+    width: auto;
+    padding: 2em;
+    height: 90vh;
+    stroke-miterlimit: 10;
+    animation-name: so-cool;
+    animation-direction: reverse;
+}
+
+#face:hover {fill: red;}
+
+.outerSpace {
+   flex-wrap: wrap;
+    fill: blue;
+    animation-name: animation-three;
+    animation-duration: 60s;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+alienLife, .planetEarth {
+    color: green;
+    animation-name: animation-two;
+    animation-duration: 60s;
+}
+
+#landingDock {
+animation-name: so-cool;
+animation-duration: 90s;
+}
+
+.alienLife {
+    stroke: #ff99FF;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill: none;
+    stroke: green;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: yellow;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    stroke: white;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.sizing-box {
+    fill: none;
+    animation-name: animation-three;
+}
+
+#landingDock,
+#spaceShip,
+#liftOff {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
+
+.fantasy {
+animation-name: coolness-one;
+animation-duration: 100s;
+}
+
+.waterMelon, .seeds {
+    fill: green;
+    stroke: red; 
+    stroke-width: 34;
+    stroke-miterlimit: 10;
+    animation-name: so-cool;
+    animation-duration: 60s;
+}
+
+.waterMelon:hover {fill: pink;}
+
+.peachPit:hover {fill: red;}
+
+#cutie {
+margin-left: 50%;
+}
+
+#cutie:hover {opacity: .50; fill: purple;}
+
+.chilling {
+    color: yellow; 
+    font-size: 300px;
+    position: absolute;
+ float: right;
+}
+

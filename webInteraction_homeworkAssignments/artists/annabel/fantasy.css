@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "optima";
+    src: url(fonts/OptimaLtStd.woff) format("woff");
+}
+
+.peachpit {
+    fill: green;
+   animation-name: animation-two;
+    animation-duration: 60s;
+}
+
+@keyframes animation-one {
+    0% {color: #e7ff99;}
+    25% {color: #d5ff4d;}
+    50% {color: #ff3399;}
+    75% {color: #e60073;}
+    }
+
+@keyframes animation-two {
+     0% {color: #3366ff;}
+    25% {color: #1a53ff;}
+    50% {color: #ff8c1a;}
+    75% {color: #b35900;}
+    100% {color: #ff3374}
+}
+
+@keyframes animation-three {
+    0% {fill: #333300;}
+    25% {fill: #808000;}
+    50% {fill: #990099}
+    75% {fill: #ffe6ff;}
+    100% {fill: #cc2900;}
+}
