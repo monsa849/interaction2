@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logo Love</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        #love {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                background-color: pink;
+                padding: 50px;
+                margin: 10px;
+                border-radius: 10px;
+            }
+
+              #text {
+                text-align: center;
+                font-family: Georgia, serif;
+                font-size: 50px;
+            } 
+
+  </style>
+
+
+  </head>
+
+<body>
+  <p id="text">Grow with the Flow</p>
+
+  <div id="love">
+
+    <select id="myFonts" onchange="fontFunction()">
+
+    <option value="Georgia"> Georgia </option>
+
+    <option value="Helvetica"> Helvetica
+    </option>
+
+    <option value="Palatino"> Palatino </option>
+
+    <option value="Trebuchet MS"> Trebuchet 
+    </option>
+
+    <option value="Verdana"> Verdana </option>
+
+    </select>
+
+    <br>
+    <br>
+
+    <input type="checkbox" id="boldCheck" onclick="boldFunction()"> Bold <br>
+
+    <input type="checkbox" id="italicCheck" onclick="italicFunction()"> Italic <br>
+
+    <br>
+
+<input type="checkbox" id="myCheck" onclick="hideFunction()"> Hide Text <br>
+
+
+    <input id="size" type="range" value="16" min="12" max="150" step="1" oninput="sizeFunction()">
+<br>
+
+
+</div>
+
+<div id="graffiti">
+
+<img src="../photos1/graffiti.jpg" alt="Grafiti in Chelsea, Manhattan." width="303" height="400">
+
+
+</div>
+
+<div id="meDrawing">
+
+  <img src="../annabel/photos/bio.jpg" alt= "Annabel Monsky's Headshot.">
+
+
+</div>
+
+<script src="logoLove.js"></script>
+
+</body>
+
+</html>

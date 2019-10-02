@@ -34,7 +34,7 @@ h1 {
     display: inline-block;
     text-align: left;
     line-height: 1.1;
-    margin: 40px 20px;
+    margin: 40px 50px;
 }
 
 #containertwo {
@@ -54,11 +54,12 @@ img {
 
 main {
     background-color: #CC4E62;
-    padding: 15px 30px;
+    padding: 15px 50px;
+    margin: 50px;
 }
 
 aside {
-	width: 50%;
+	width: 90%;
 	padding: 0;
     display: inline-block;
     font-size: 8vw;
@@ -67,7 +68,8 @@ aside {
 @media only screen and (max-width: 600px) {
     
     .body-text {
-        font-size: 20px;
+        font-size: 15px;
         letter-spacing: 0px;
+        margin: inherit;
     }
 }

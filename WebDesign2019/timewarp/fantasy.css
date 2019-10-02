@@ -1,0 +1,44 @@
+#fantasy, .innerglow {
+    fill: turquoise;
+    stroke: hotpink;
+    stroke-width: 30;
+    width: 50px;
+    stroke-miterlimit: 10;
+    animation-name: coolness-two;
+    animation-duration: 30s;
+}
+
+.midcircle {
+    fill: green;
+    animation-name: coolness-two;
+    animation-duration: 60s;
+}
+
+.hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+    
+
+#cloudTwo {
+    font-size: 700px;
+    color: yellow;
+    animation-name: so-cool;
+    animation-duration: 90s;
+}
+
+#bitmoji {
+    float: center;
+    position: relative;
+    padding: none;
+    align-content: center;
+    margin-right: 50%;
+    margin-left: 50%;
+    top: 70px;
+    bottom: 70px;
+    font-size: 250px;
+}
+    
+#bitmoji:hover {opacity: .50; fill: white;}
