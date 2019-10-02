@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logo Love</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+html {
+  background-color: black;
+  font: white;
+
+}
+        #love {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                background-color: yellow;
+                padding: 50px;
+                margin: 10px;
+                border-radius: 10px;
+            }
+
+              #text {
+                margin-bottom: 0;
+                color: white;
+                text-align: center;
+                font-family: Georgia, serif;
+                font-size: 50px;
+            display: grid;
+            grid-template: 550px / auto auto auto;  
+            }
+
+     #size {
+      display: relative;
+      margin: auto;
+      align-content: center;
+     }     
+  
+
+  </style>
+
+
+</head>
+
+<header>
+
+  <img src="../logoLove/photos1/self_illustrated.jpg" alt="illustration of Annabel." Width="177" height="232">
+
+</header>
+
+<body>
+
+  <p id="text"><br><br>
+
+  <img src="../logoLove/photos1/rainbowHaze.jpg" alt="rainbow photo." width="600" height="500"><br>Grow with the Flow<br>
+<img src="../logoLove/photos1/graffiti.jpg" alt="Grafiti in Chelsea, Manhattan." width="303" height="400">
+<img src="../logoLove/photos1/faces.jpg" alt="illustration of Annabel." Width="500" height="540">
+
+</p>
+
+  <div id="love">
+
+    <select id="myFonts" onchange="fontFunction()">
+
+    <option value="Georgia"> Georgia </option>
+
+    <option value="Helvetica"> Helvetica
+    </option>
+
+    <option value="Palatino"> Palatino </option>
+
+    <option value="Trebuchet MS"> Trebuchet 
+    </option>
+
+    <option value="Verdana"> Verdana </option>
+
+    </select>
+
+    <br>
+    <br>
+
+    <input type="checkbox" id="boldCheck" onclick="boldFunction()"> Bold <br>
+
+    <input type="checkbox" id="italicCheck" onclick="italicFunction()"> Italic <br>
+
+<br>
+<br>
+
+       <input type="checkbox" id="outlineCheck" onclick="outlineFunction()"> Dress Me in Blue! <br>
+
+    <br>
+
+<input type="checkbox" id="myCheck" onclick="hideFunction()"> Hide Me! <br>
+
+    <input id="size" type="range" value="16" min="12" max="150" step="1" oninput="sizeFunction()">Adjust My Size! <br>
+
+<button type="button" 
+onclick="document.getElementById('text').style.color = 'red'">
+Turn Me Red! </button>
+
+<button type="button" 
+onclick="document.getElementById('text').style.color = 'white'">
+Turn Me White!</button>
+
+<br>
+
+</div>
+
+
+</body>
+
+ <script src="logoLove.js">
+   
+   </script>
+
+
+</html>
