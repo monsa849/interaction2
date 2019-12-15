@@ -1,0 +1,41 @@
+html {
+	background-image: url("happy-place.jpg");
+	background-position: center;
+	object-fit: all;
+}
+
+ul {
+font-family: Helvetica; 
+  list-style-type: none;
+  margin-left: 400px;
+  margin-top: 100px;
+  padding: 10;
+  width: 500px;
+  background-color: #70D3ED;
+  opacity: 0.75;
+}
+
+li a {
+  display: block;
+  color: #165929;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #ED70D3;
+  color: white;
+}
