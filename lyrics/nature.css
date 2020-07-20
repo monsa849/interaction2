@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Linden+Hill&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Open+Sans|Roboto+Slab|Ubuntu&display=swap');
+
+html {
+background: #586A21;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+#the-tree {
+text-align: left;
+width: 100vw;
+color: black;
+font-family: 'Baskervville', serif;
+font-size: 3vw;
+}
+
+h2 {
+  font-color: #C8E475;
+  text-align: left;
+  word-spacing: 10vw;
+}
+
+#all-around {
+font-family: 'Baskervville', serif;
+font-size: 2vw;
+word-spacing: .7vw;
+padding: 2px;
+margin-top: 0px;
+}
+
+p {
+  color: #A8F599;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+
+#bald-top {
+	font-family: 'Baskervville', serif;
+	font-size: 20px;
+}
+
+#body-bark {
+margin-left: 100px;
+ margin-right: 0px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+font-family: 'Baskervville', serif;
+font-size: 40px;
+width: 90%;
+}
+
+#giving {
+	font-family:'Baskervville', serif;
+	font-size: 45px;
+	margin-left: 150px;
+ margin-right: 0px;
+ margin-bottom: 100px;
+}
+
+p.cutesy {
+	line-height: 3.7;
+}

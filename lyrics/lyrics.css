@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Linden+Hill&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Open+Sans|Roboto+Slab|Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+
+html {
+font-family: 'Merriweather', serif;
+background-color: #6152B2;
+}
+
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 2vw;
+  padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-style: oblique;
+	color: black;
+	font-size: 3vw;
+	letter-spacing: .5vw;
+	font-family: 'Merriweather,' serif;
+}
+
+body {
+	background: url("sprial.jpg");
+	font-size: 2rem;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	grid-row: 1 / span 1;
+	grid-column: 1 / span 3;
+	margin: 0;
+	padding: 0;
+}
+
+#sit-holding-hands {
+	border: 1px solid black;
+  	padding: 10px;
+  	width: 200px;
+  	height: 200px;
+	color: #E7762C;
+	text-align: center;
+	letter-spacing: 5px;
+	opacity: 0.1;
+}
+
+#devilsMagic {
+align-content: left;
+color: red;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 0px;
+margin-left: 0px;
+letter-spacing: .5vw;
+}
+
+#couldBe {
+float: right;
+color: black;
+float: right;
+margin-top: -300px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 600px;
+}
+
+#flower {
+	color: black;
+	text-align: center;
+}
+
+#games {
+  border: 1px solid black;
+  background-color: #3351A5;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+}
+#line {
+	color: #8E1489;
+}
+
+#line:hover {
+	color: hotpink;
+}
+
+.welcome {
+ margin-top: 200px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 80px;
+   padding: 16px 32px;
+  background-color: lightblue;
+ font-family: 'Cardo', serif;
+ letter-spacing: 20px;
+ background-color: #E6CDCD;
+ border: none;
+ color: #62F3FB;
+ text-align: center;
+ font-size: 4vw;
+ transition: 0.10s;
+}
+
+.welcome:hover {
+  background-color: #9DDBB7;
+  color: green;
+}
+
+.goodbye {
+	display: inline;
+  font-family: 'Cardo', serif;
+   letter-spacing: letter-spacing: .5vw;
+  background-color: #CE5592BF;
+  border: none;
+  color: #9FA02C;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 3vw;
+  margin: 25px 50px 75px 100px;
+  transition: 0.20s;
+}
+
+.sunset {
+  font-family: 'Cardo', serif;
+  background-color: #EDBB88;
+  border: none;
+  color: yellow;
+  padding: 20px 2px;
+  text-align: center;
+  float: center;
+  font-size: 3vw;
+	margin: 25px 50px 75px 100px;
+  opacity: 0.6;
+  transition: 0.9s;
+}
+
+.sunset:hover {opacity: 1}
+
+.praying {
+font-family: 'Cardo', serif;
+letter-spacing: .5vw;
+background-color: #E9B904C7;
+width: 30vw;
+border: none;
+color: #A5D771D1;
+text-align: center;
+font-size: 3vw;
+opacity: 0.6;
+transition: 0.15s;
+}
+
+.praying:hover {
+opacity: .5;
+width: 9w;
+}
+
+.writing {
+	width: 100vw;
+	height: 100vw;
+	background-color: #8A5F7F;
+	display: block;
+font-family: 'Cardo', serif;
+margin: auto;
+letter-spacing: 0vw;
+border: none;
+color: #E9B904C7;
+font-size: 3vw;
+opacity: 70;
+transition: height 2s;
+}
+
+.writing:hover {
+opacity: 5;
+height: 1vw;
+}
+
+.goodbye:hover {
+background-color: #3e8e41;
+color: green;
+opacity: 5;
+height: 1vw;
+}
+
+
+
+
+
+
