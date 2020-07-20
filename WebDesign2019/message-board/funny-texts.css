@@ -1,0 +1,518 @@
+html {
+animation-name: coolness-one;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+background-image: url(photos/heartbreak.jpg);
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-position: center;
+}
+
+header {
+    font-family: "optima";
+    font-size: 70px;
+    text-align: center;
+    margin-right: -50%;
+    margin-left: -50%;
+    color: green;
+    text-shadow: 5px 5px yellow;
+}
+
+nav {
+    font-size: 20px;
+    opacity: .35;
+    overflow: auto;
+    white-space: nowrap;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    animation-name: so-cool;
+    animation-duration: 2s;
+}
+
+@keyframes coolness-one {
+    0% {background-color: purple;}
+    25% {background-color: black;}
+    30% {background-color: hotpink;}
+    35% {background-color: maroon;}
+    40% {background-color: pink;}
+    50% {background-color: hotpink;}
+    60% {background-color: purple;}
+    62% {background-color: #3D006B;}
+    65% {background-color: #D9594C;}
+    67% {background-color: black;}
+    75% {background-color: hotpink;}
+    85% {background-color: purple;}
+    90% {background-color: aqua;}
+    95% {background-color: red;}
+    100% {background-color: teal;}
+}
+
+@keyframes cream-cheese {
+  0%  {bottom: -300px;}
+  20% {bottom: 100px;}
+  40% {bottom: 200px;}
+  50% {bottom: 300px;}
+  70% {bottom: 500px;}
+  90%  {bottom:700px;}
+  100% {bottom: 1000px;}
+}
+
+@keyframes love-you {
+  0%   {bottom:-600px;}
+  20%  {bottom:-400px;}
+  40%  {bottom: -200px;}
+  60%  {bottom: 0px;}
+  80%  {bottom: 200px;}
+  100% {bottom: 400px;}
+}
+
+@keyframes night {
+  0%   {bottom:50px;}
+  40%  {bottom: 600px;}
+  50%  {bottom: 1200px;}
+  75%  {bottom:2400px;}
+  100% {bottom: 4400px;}
+}
+
+@keyframes lol {
+  0% {bottom:-1000px;}
+  10% {bottom: 0px;}
+  20% {bottom: 1000px;}
+  40% {bottom: 2000px;}
+  60%  {bottom:2000px;}
+  80%  {bottom:4000px;}
+  100%  {bottom:5000px;}
+
+}
+
+@keyframes type {
+ 0%  {left:-10000px;}
+  15% {left:-4000px;}
+  25% {left: :-100px;}
+  50%  {left:5px;}
+  60%  {left:150px;}
+  85%  {left: :200px;}
+  100% {left:650px;}
+}
+
+#that-sucks {
+ margin-left: 900px;
+  margin-right: 476px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+}
+
+#this {
+ margin-left: 810px;
+  margin-right: 270px;
+  width: 100px;
+height: 100px;
+position: relative;
+animation-name: love-you;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+
+#intoCrazy {
+  margin-left: 305px;
+  margin-right: 200px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#omg { 
+  margin-left: 102px;
+  margin-right: 190px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#forgetIt {
+ margin-left: 1000px;
+  margin-right: 459px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+#round-corner {
+   margin-left: 150px;
+  margin-right: 208px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+ animation-name: love-you;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+#ig-pls {
+  margin-left: 601px;
+  margin-right: 601px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+ animation-name: lol;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#drinks {
+ margin-left: 400px;
+  margin-right: 257px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: night;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+#so-busy {
+  margin-left: 999px;
+  margin-right: 450px;
+   width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+#hiya {
+  margin-left: 930px;
+  margin-right: 430px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+#heart-hurting-bad {
+margin-left: : -900px;
+margin-right: : -312px;
+position: relative;
+animation-name: love-you;
+animation-iteration-count: infinite;
+animation-duration: 15s;
+}
+
+#hi {
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+#turn-on {
+ margin-left: 900px;
+  margin-right: 200px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+
+#about-face {
+ margin-left: 690px;
+  margin-right: 200px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+#singer {
+ margin-left: 600px;
+  margin-right: 390px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+#sry {
+ margin-left: 909px;
+  margin-right: 359px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+
+#who-is-this {
+ margin-left: 400px;
+  margin-right: 80px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+#bagel {
+ margin-left: 614px;
+  margin-right: 850px;
+    width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+#truly-missing-you {
+  margin-left: 900px;
+  margin-right: 405px;
+    width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-duration: 10s; 
+  animation-iteration-count: infinite;  
+}
+#sup {
+  margin-left: 920px;
+  margin-right: 400px;
+    width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-duration: 6s; 
+  animation-iteration-count: infinite;  
+}
+
+#love-you {
+  margin-left: 900px;
+  margin-right: 720px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+
+#pup {
+   margin-left: 129px;
+  margin-right: 720px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+#fyi {
+   margin-left: 700px;
+  margin-right: 220px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+}
+
+#cream-cheese {
+  margin-left: 1030px;
+  margin-right: 130px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: night;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+#really-sucks {
+ margin-left: 560px;
+  margin-right: 560px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: night;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+#seriously-sucks {
+   margin-left: 1570px;
+  margin-right: 570px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 5.5s;
+}
+
+#damn-girl {
+   margin-left: 590px;
+  margin-right: 590px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+
+#tonight {
+  margin-left: 1100px;
+  margin-right: 430px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: night;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+}
+
+#a-lot {
+  margin-left: 1000px;
+  margin-right: 100px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+
+#send-foto {
+  margin-left: 930px;
+  margin-right: 530px;
+  width: 100px;
+height: 100px;
+position: relative;
+animation-name: cream-cheese;
+animation-duration: 4.4s;
+animation-iteration-count: infinite;
+}
+
+#funType {
+  margin-left: 830px;
+  margin-right: 330px;
+  width: 100px;
+height: 100px;
+position: relative;
+animation-name: cream-cheese;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+#men {
+  margin-left: 630px;
+  margin-right: 130px;
+  width: 100px;
+height: 100px;
+position: relative;
+animation-name: cream-cheese;
+animation-duration: 6.5s;
+animation-iteration-count: infinite;
+}
+
+#how-i-wish {
+  margin-left: 1050px;
+  margin-right: 150px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: night;
+  animation-iteration-count: infinite;
+  animation-duration: 4.5s;
+}
+
+#hereThere {
+  margin-left: 1002px;
+  margin-right: 54px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+#indicator {
+  margin-left: 509px;
+  margin-right: 504px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+#turn-on {
+  margin-left: 509px;
+  margin-right: 504px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+#cutieee {
+  margin-left: 400px;
+  margin-right: 400px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: lol;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+#shrug {
+   margin-left: 915px;
+  margin-right: 408px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: cream-cheese;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+

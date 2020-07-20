@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "optima";
+    src: url(fonts/OptimaLtStd.woff) format("woff");
+}
+
+html {
+background-color: black;
+background-image: url(photos/bubble.gif);
+background-position: center;
+background-repeat: repeat-y;
+font-family: optima;
+font-size: 30px;
+font-color: white;
+display: inline-block;
+margin-right: 50px;
+margin-left: 50px;
+}
+
+yo {
+  background-color: red;
+  background-position: center;
+  width: 500px;
+  height: 400px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.aura {
+  animation: aura 1s ease-in-out infinite alternate;
+  font-family: optima;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@keyframes aura {
+  from {
+    text-shadow: 0 0 30px black, 0 0 300px #fff, 0 0 30px #e60073, 0 0 30px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 50px black, 0 0 400px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+@keyframes so-cool {
+     0% {background-color: #E05087;}
+    25% {background-color: #1a53ff;}
+    50% {background-color: #E41F71;}
+    75% {background-color: #A8199C;}
+    100% {background-color: #CC1B5F;}
+}
+
+@keyframes animation-one {
+    0% {background-color: #e7ff99;}
+    25% {background-color: #d5ff4d;}
+    50% {background-color: #ff3399;}
+    75% {background-color: #e60073;}
+}
+
+@keyframes animation-two {
+     0% {background-color: #3366ff;}
+    25% {background-color: #1a53ff;}
+    50% {background-color: #ff8c1a;}
+     60% {background-color: #333300}
+    75% {background-color: #b35900;}
+    100% {background-color: #ff3374}
+}
+
+body {
+  background-color: red;
+}
+
+header {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+nav {
+    font-size: 25px;
+    background-color: pink;
+    opacity: .50;
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+   background-color: lightblue;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+   color: white;
+   text-align: center;
+  font-family: optima;
+  font-size: 30px;
+}
+
+@keyframes groovy {
+  0% {from left: 100px;}
+  25%  {left:200px;}
+  50%  {left:300px;}
+  75%  {left:400px;}
+  100% {left: 500px;}
+}
+
+#chat-bubble {
+animation-name: groovy;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+transition: width 2s, height 2s, transform 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
